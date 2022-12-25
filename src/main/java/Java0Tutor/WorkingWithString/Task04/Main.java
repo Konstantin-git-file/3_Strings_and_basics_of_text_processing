@@ -6,17 +6,7 @@ public class Main {
 //4. В строке найти количество чисел.
 
         int counter = 0;
-        boolean number = false;
         for (int i = 0; i < str.length(); i++) {
-            if (Character.isDigit(str.charAt(i))) {
-                number = true;
-            }
-            if (!Character.isDigit(str.charAt(i)) && number) {
-                counter++;
-                number = false;
-            }
-        }
-        if (number) {
             counter++;
         }
         return counter;

@@ -24,7 +24,8 @@ public class Main {
     public static void main(String[] args) {
 
         String line =
-                "Вводится строка. Требуется удалить из нее повторяющиеся символы и все пробелы. Например, если было введено \"abc cde def\", то должно быть выведено \"abcdef";
+                "Вводится строка. Требуется удалить из нее повторяющиеся " +
+                        "символы и все пробелы. Например, если было введено \"abc cde def\", то должно быть выведено \"abcdef";
         System.out.println(deleteRepeatedChar(line));
     }
 }
